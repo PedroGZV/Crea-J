@@ -1,0 +1,314 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "Lucida Sans";
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: White;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #c1c1c1;
+    border-radius: 5px;
+}
+
+/* Menu */
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.menu1{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    background-color: white;
+}
+
+header .menu1 img{
+    width: 200px;
+    margin-left: 35px;
+}
+
+.menu1 a{
+    text-decoration: none;
+}
+
+.unete{
+    text-align: center;
+    background-color: #56fff2;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    margin-right: 30px;
+    transition: all 0.2s;
+}
+
+.unete span{
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    font-weight:bold;
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    width: 290px;
+    height: 37px;
+}
+
+.unete:hover{
+    background-color: #29fff0;
+    transform: scale(1.05);
+}
+
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem 0;
+    background-color: #00ffeb;
+    margin-top: 5px;
+}
+
+.menu2 nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu2 nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0rem 1.7rem;
+    transition: all 0.3s linear;
+}
+
+.menu2 nav ul li a{
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    padding: 0.7rem 1.2rem;
+    font-weight:bold;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    transition: all 0.3s linear;
+}
+
+.menu2 nav ul li:hover{
+    transform: scale(1.2);
+}
+
+.cont{
+    width: 80%;
+    height: 1200px;
+    background-color: white;
+}
+
+/* Slider */
+
+.slider{
+    width: 1000px ;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    margin-top: 147px;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 16s infinite alternate linear;
+    width: 400%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 1000px;
+    height: 500px;
+}
+/*Social Bar*/
+.social {
+    position: fixed; 
+    left: 0; 
+    top: 300px; 
+    z-index: 2000; 
+}
+ 
+    .social ul {
+        list-style: none;
+        padding: 0px;
+    }
+ 
+    .social ul li a {
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        padding: 22px 32px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; 
+    }
+ 
+    .social ul li .icon-facebook {
+        background: #3b5998;
+        background-image: url(f.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 1.5em 0.5em;
+    } 
+    .social ul li .icon-facebook:hover{
+        background-color: #252850;
+        background-image: url(f.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+    .social ul li .icon-instagram {
+        background: #DD2A7B;
+        background-image: url(ig.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 1.5em 0.5em;
+    }
+.social ul li .icon-instagram:hover{
+        background-color: #F58529;
+        background-image: url(ig.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+.social ul li .icon-gmail {
+    background: #D44638;
+    background-image: url(gm.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 1.5em 0.5em;
+    }
+.social ul li .icon-gmail:hover{
+        background-color: #B23121;
+        background-image: url(gm.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+/*mes*/
+
+hr{
+    margin-top: 50px;
+}
+
+.mes h1{  
+  font-size:45px;
+  color:black;
+  text-align: center;
+  padding-top: 3em;
+  margin-bottom:2em;
+  margin-right: 5em;
+  margin-left: 13em;
+  border-bottom:solid 10px;
+  border-color: black;
+}
+#william{
+  float: left;
+  width: 20em;
+  height: 30em;
+  margin-top: -12em;
+  margin-bottom: 0em;
+  margin-left: 8em;
+  margin-right: 0em;
+}
+.text{
+  
+  font-size: 24px;
+  margin-top: 0em;
+  margin-left: 25em;
+  margin-right: 10em;
+  margin-bottom: 7.2em;
+  color: #000;
+  text-align: justify;
+}
+
+.que{
+     font-size:45px;
+  color:black;
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom:2em;
+  margin-right: 5em;
+  margin-left: 13em;
+  border-bottom:solid 10px;
+  border-color: black;
+
+}
+
+.empre img{
+    float: left;
+  width: 20em;
+  height: 10em;
+  margin-top: 12em;
+  margin-bottom: 0em;
+  margin-left: 8em;
+  margin-right: 0em;
+    border: 5px solid rgba(0, 255, 235, 0.9);
+    background-color: rgba(0, 255, 235, 0.9);
+}
+
+.text1{
+    font-size: 24px;
+  margin-top: 5em;
+  margin-left: 25em;
+  margin-right: 10em;
+  margin-bottom: 7.2em;
+  color: #000;
+  text-align: justify;
+}
+
+.copyright{
+	background: rgba(0, 0, 0, 0.96);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright span{
+    color: #C2C2C2;
+}
+
+.copyright span:hover{
+    color: #FFFFFF;
+}
