@@ -1,0 +1,304 @@
+body{
+    
+    margin: 0;
+    font-family: "Lucida Sans";
+    background-image: url(fondo.jpg);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: White;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #c1c1c1;
+    border-radius: 5px;
+}
+
+/* Menu */
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.menu1{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    background-color: white;
+}
+
+header .menu1 img{
+    width: 200px;
+    margin-left: 35px;
+}
+
+.menu1 a{
+    text-decoration: none;
+}
+
+.unete{
+    text-align: center;
+    background-color: #56fff2;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    margin-right: 30px;
+    transition: all 0.2s;
+}
+
+.unete span{
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    font-weight:bold;
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    width: 290px;
+    height: 37px;
+}
+
+.unete:hover{
+    background-color: #29fff0;
+    transform: scale(1.05);
+}
+
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem 0;
+    background-color: #00ffeb;
+    margin-top: 5px;
+}
+
+.menu2 nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu2 nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0rem 1.7rem;
+    transition: all 0.3s linear;
+}
+
+.menu2 nav ul li a{
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    padding: 0.7rem 1.2rem;
+    font-weight:bold;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    transition: all 0.3s linear;
+}
+
+.menu2 nav ul li:hover{
+    transform: scale(1.2);
+}
+
+.cont{
+    width: 80%;
+    height: 1200px;
+    background-color: white;
+}
+
+div.all{
+    width: 80%;
+    height: 1400px;
+    margin-top: 20px;
+    
+    margin-left: 120px;
+}
+
+h1.t{
+    text-align: center;
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: 100px;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-shadow: 1px 1px #666, 2px 2px #fff, 3px 3px #666, 4px 4px #fff;
+    color: #000;
+
+    animation: fondo;
+    animation-duration: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+   margin-top: 150px;
+}
+
+@keyframes fondo{
+    0%{
+        opacity: 0;
+
+    }
+
+
+    100%{
+        opacity:1;
+    }
+}
+
+
+.f {
+    width: 10%;
+    height: 10%;
+    margin-top: 380px;
+    margin-left: -290px ;
+    margin-right: 5%;
+   
+}
+
+.ff {
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: -70px;
+    
+   
+}
+
+.t {
+    width: 10%;
+    height: 10%;
+    margin-top: 100px;
+    margin-left: 270px;
+    margin-right: 5%;
+    float: left;
+}
+
+.tt {
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 500px;
+}
+
+.fa {
+    width: 10%;
+    height: 8%;
+    margin-top: 100px;
+    margin-left: -160px;
+    margin-right: 5%;
+    float: left; 
+}
+
+.fafa {
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 500px;
+}
+
+.gm {
+    width: 10%;
+    height: 5%;
+    margin-top: 140px;
+    margin-left: 270px;
+    margin-right: 5%;
+    float: left;
+}
+
+.gmgm {
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 500px;
+}
+
+/*Social Bar*/
+.social {
+    position: fixed; 
+    left: 0; 
+    top: 300px; 
+    z-index: 2000; 
+}
+ 
+    .social ul {
+        list-style: none;
+        padding: 0px;
+    }
+ 
+    .social ul li a {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 22px 32px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; 
+    }
+ 
+    .social ul li .icon-facebook {
+        background:#3b5998;
+        background-image: url(f.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 1.5em 0.5em;
+    } 
+    .social ul li .icon-facebook:hover{
+        background-color: #252850;
+        background-image: url(f.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+    .social ul li .icon-instagram {
+        background: #DD2A7B;
+        background-image: url(ig.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 1.5em 0.5em;
+    }
+.social ul li .icon-instagram:hover{
+        background-color: #F58529;
+        background-image: url(ig.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+.social ul li .icon-gmail {
+    background: #D44638;
+    background-image: url(gm.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 1.5em 0.5em;
+    }
+.social ul li .icon-gmail:hover{
+        background-color: #B23121;
+        background-image: url(gm.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 2.4em 0.5em;
+        padding: 22px 40px;
+    }
+
+
+.copyright{
+    background: rgba(0, 0, 0, 0.96);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright span{
+    color: #C2C2C2;
+}
+
+.copyright span:hover{
+    color: #FFFFFF;
+}

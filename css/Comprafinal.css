@@ -1,0 +1,55 @@
+body{
+    background: url(fondo.jpg);
+}
+
+
+#formulario{
+	color: #fff;
+
+}
+#formulario form{
+	width: 1200px;
+	height: 500px;
+	border-radius: 15px;
+	padding: 22px;
+	margin: 20px auto;
+
+}
+.t{
+	margin-top: 10%;
+	padding-bottom: 15%;
+	font-size: 45px;
+	text-align: center;
+
+}
+
+.otro{
+    margin-top: -9%;
+	padding-bottom: 50px;
+	font-size: 15px;
+	text-align: justify;
+	padding-left:40px 
+	padding-right:40px;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+form{
+	font-family: Century Gothic;
+	background-color: rgba(76,76,76,1);
+	box-shadow: 10px 10px 112px 0px rgba(0,0,0,0.75);
+
+}
+
+.boton{
+	background-color: #56fff2;
+	border-radius: 15px;
+	width: 190px;
+	height: 70px;
+	color: #000;
+	font-family: Century Gothic;
+	margin-top: 0px;
+	margin-left: 785px;
+	font-size: 20px;
+	cursor: pointer;
+}
