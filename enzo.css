@@ -1,0 +1,66 @@
+header {
+    font-size: 40px;
+    font-family: century;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.f {
+    width: 5%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 5%;
+    float: left;
+}
+
+.ff {
+    font-size: 30px;
+    margin-top: 11%;
+    margin-left: 10%;
+}
+
+.t {
+    width: 5%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 5%;
+    float: left;
+}
+
+.tt {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+
+.fa {
+    width: 5%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 5%;
+    float: left; 
+}
+
+.fafa {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+
+.gm {
+    width: 5%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 5%;
+    float: left;
+}
+
+.gmgm {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-left: 50%;
+}
