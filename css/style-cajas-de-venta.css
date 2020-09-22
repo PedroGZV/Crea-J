@@ -1,0 +1,65 @@
+div.all{
+    width: 80%;
+    height: 1400px;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 120px;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Oferta ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    width: 800px;
+    height: 150px;
+    top: 280px;
+    text-decoration: none;
+}
+
+.Oferta ul li{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    top: 0;
+}
+
+.Oferta ul li a{
+    text-decoration: none;
+}
+
+.img-compra{
+    width: 350px;
+    margin-left: 8px;
+    margin-top: 0;
+}
+
+.text-produc{
+    text-decoration: none;
+    color: black;
+    width: 400px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.text-produc-cost{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
